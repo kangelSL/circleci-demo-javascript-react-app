@@ -14,6 +14,10 @@ workflows:
   #               - master
   #   jobs:
   #     - test
+  #     - test2:
+  #         requires:
+  #             - build
+  # Structure means test2 will wait for test to be complete before run
 
 jobs:
   test:
